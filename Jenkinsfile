@@ -4,7 +4,7 @@ properties([
     string(defaultValue: '1.0', description: 'Current version number', name: 'VERSION'),
     text(defaultValue: '', description: 'A list of changes', name: 'CHANGES'),
     booleanParam(defaultValue: false, description: 'If build should be marked as pre-release', name: 'PRERELEASE'),
-    string(defaultValue: 'ayufan-rock64', description: 'GitHub username or organization', name: 'GITHUB_USER'),
+    string(defaultValue: 'pfeerick-rock64', description: 'GitHub username or organization', name: 'GITHUB_USER'),
     string(defaultValue: 'linux-rootfs', description: 'GitHub repository', name: 'GITHUB_REPO'),
   ])
 ])
