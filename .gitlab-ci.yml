@@ -13,6 +13,7 @@ stages: [draft, build, pre-release, release]
 before_script:
   - 'export CHANGES=$(git tag -l --format="%(contents)" "$CI_COMMIT_TAG")'
   - 'export DESCRIPTION=$(echo -e "${CHANGES}\n\n${PIPELINE_URL}")'
+  - update-binfmts --display
 
 draft:
   stage: draft
