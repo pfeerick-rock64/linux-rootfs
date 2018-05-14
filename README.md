@@ -2,7 +2,7 @@
 Various scripts created based on <https://github.com/rock64-linux/rk-rootfs-build> to pre-build rootfs images of systems.
 
 ## Current images
-Always check the releases for the current list of images.
+Generally there will be both armhf and arm64 versions of the below images, but always check the releases page for the current list of images.
 
 * debian-jessie-minimal
 * debian-jessie-openmediavault
